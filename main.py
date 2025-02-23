@@ -13,9 +13,9 @@ from pyrogram.types import Message
 app = Flask(__name__)
 
 # Telegram Bot API
-API_ID = int(os.getenv("API_ID", "your_api_id"))
-API_HASH = os.getenv("API_HASH", "your_api_hash")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "your_bot_token")
+API_ID = "7405235"
+API_HASH = "5c9541eefe8452186e9649e2effc1f3f"
+BOT_TOKEN = "6627182185:AAEBRayb9vuLUbjbmwd-NwP0fssteLsDcgU"
 
 # Initialize Pyrogram Client
 bot = Client("photo-enhancer-bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
