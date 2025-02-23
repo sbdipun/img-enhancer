@@ -1,0 +1,6 @@
+flask
+pyrogram
+tgcrypto
+requests
+pillow
+zstandard
